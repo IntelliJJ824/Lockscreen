@@ -1,0 +1,125 @@
+<head>
+
+	<title>Are you ready?</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	
+	<link href="bootstrap.min.css" rel="stylesheet"> 
+
+	<link rel='stylesheet'type='text/css' href='lockSc.css'>
+<!-- 
+	<script>
+	$(document).ready(function (){
+
+
+	$("h1").fadeIn(3000);
+	$("img").fadeIn(10000);
+	
+	$("#topquestion").fadeIn(6000);
+	$("#middlequestion").fadeIn(6000);
+	$("#number").fadeIn(6000);
+	
+	$("#lowquestion").fadeIn(10000);
+	$("#lowerquestion").fadeIn(10000);
+	$("#numbers").fadeIn(10000);
+
+	$("#start").fadeIn(14000);
+	$("#end").fadeIn(14000);
+
+	});
+
+	</script>
+yes-->
+
+</head>
+
+
+<body >
+
+
+
+
+<!--image-->
+	
+
+
+
+	<img id="imYellow"src="lock2.jpg" style="display:none;">
+	<img id="imGreen" src="lock1.jpg" style="display:none;">
+	<img id="imPur"   src="3lock.jpg" style="display:none;">
+	
+	<h1 id="toptext" style="display:none;">Welcome!</h1>
+	<h1 style="display:none;">"My </h1> 
+	<h1 id="undertext" style="display:none;">World"</h1>
+	<p id="nonumber" style="display:none;">0</p>
+
+	
+
+	<div id=topquestion style="display:none;">
+	<p id="top">How </p>
+		<p>are you feeling?</p>
+
+	</div>
+	
+	<div id=middlequestion style="display:none;">
+	<p>How is  it everyting going</p>
+	<p>How can you stay positive</p>
+	<p>How can you run away from negative</p>
+	<p>How can you stay away from shyness</p>
+	</div>
+
+	<p id=number style="display:none;">1</p>
+
+
+	
+
+
+
+
+	<div id=lowquestion style="display:none;">
+	<P id="low">What</p> 
+		<p>is going on?</p>
+	</div>
+	
+	<div id=lowerquestion style="display:none;">
+	<p>What is psychology</p>
+	<P>What are the phnomena in today</p>
+	<p>What is the solution of sadness</p>
+	<p>What is the effective way to achieve hapiness</p> 
+	</div>
+
+	<p id=numbers style="display:none;">2</p>
+
+
+
+
+
+
+
+<input  type="button" id="start" style="display:none;"
+	class="img-rounded"
+	onclick=" location.href='../index.html' " 
+	value="Ready?"	
+	onmouseover="moveOn()" 
+	onmouseout="moveOut()" 
+
+
+/>
+
+<input  type="button" id="end" style="display:none;"
+	class="img-rounded"
+	onclick="location.href='http://www.google.com' "
+	value="Thanks!"
+	onmouseover="shiftOn()"
+	onmouseout="shiftOut()"	
+
+/>
+
+
+<script src="jquery-1.11.3.js"></script>
+<script  src="screen.js"></script>
+
+
+</body>
